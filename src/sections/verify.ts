@@ -30,5 +30,5 @@ export function verify(c: Content): Raw {
 }
 
 export function footer(c: Content): Raw {
-  return h`<footer class="site-footer mono"><span>${c.footer.left}</span><span>${c.footer.mid}</span><span>${c.footer.right}</span></footer>`;
+  return h`<footer class="site-footer mono"><span>${c.footer.left}</span><span><a class="pdf-link" href="/${c.labels.pdfFile}" download>${c.labels.pdf}</a> · ${c.footer.mid}</span><span>${c.footer.right}</span></footer>`;
 }

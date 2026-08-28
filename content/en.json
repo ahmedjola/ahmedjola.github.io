@@ -37,7 +37,9 @@
     "drawingIndex": "DRAWING INDEX",
     "menu": "Menu",
     "stars": "stars",
-    "index": "INDEX"
+    "index": "INDEX",
+    "pdf": "Download this page as a PDF",
+    "pdfFile": "Ahmed-Jola-Portfolio.pdf"
   },
   "nav": {
     "chip": "AJ / 2026",

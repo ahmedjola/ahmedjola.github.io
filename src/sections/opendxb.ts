@@ -25,6 +25,7 @@ export function opendxb(c: Content): Raw {
     </article>
   </div>
 
+  <div class="game-block">
   ${sectionHead(c.opendxb.num, g.title, `${L.sheet} 03 · 2 ${L.of} 2`, "game-title")}
   <article class="sheet game-sheet" aria-labelledby="game-title">
     <div class="game-fig">
@@ -48,5 +49,6 @@ export function opendxb(c: Content): Raw {
       ${sheetFoot([L.drawnBy, g.unofficial])}
     </div>
   </article>
+  </div>
 </section>`;
 }

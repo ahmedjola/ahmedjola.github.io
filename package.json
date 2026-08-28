@@ -6,7 +6,8 @@
     "build": "tsx scripts/build.ts",
     "test": "vitest run",
     "check": "tsc --noEmit && vitest run && tsx scripts/build.ts",
-    "dev": "tsx scripts/build.ts && npx serve dist"
+    "dev": "tsx scripts/build.ts && npx serve dist",
+    "pdf": "tsx scripts/pdf.ts"
   },
   "devDependencies": {
     "@types/node": "^26.4.0",
