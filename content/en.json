@@ -6,12 +6,38 @@
     "lastUpdated": "2026-08-28"
   },
   "labels": {
-    "project": "PROJECT", "status": "STATUS", "rev": "REV", "released": "RELEASED", "years": "YEARS", "size": "SIZE", "since": "SINCE", "url": "URL",
-    "shipped": "SHIPPED", "live": "LIVE", "appStore": "App Store", "github": "GitHub",
-    "drawnBy": "DRAWN BY A. JOLA", "checkedStore": "CHECKED: APP STORE", "checkedRepo": "CHECKED: PUBLIC REPO", "licence": "LICENCE MIT",
-    "fig": "FIG.", "sheet": "SHEET", "of": "OF", "device": "iPHONE 16 PRO · 6.3\"", "scale": "1:1",
-    "renderedFrom": "RENDERED FROM THE DESIGN MOCKUP", "sampleData": "SAMPLE DATA", "schematic": "SCHEMATIC", "notToScale": "NOT TO SCALE",
-    "problem": "PROBLEM", "built": "BUILT", "result": "RESULT", "drawingIndex": "DRAWING INDEX", "menu": "Menu", "stars": "stars", "index": "INDEX"
+    "project": "PROJECT",
+    "status": "STATUS",
+    "rev": "REV",
+    "released": "RELEASED",
+    "years": "YEARS",
+    "size": "SIZE",
+    "since": "SINCE",
+    "url": "URL",
+    "shipped": "SHIPPED",
+    "live": "LIVE",
+    "appStore": "App Store",
+    "github": "GitHub",
+    "drawnBy": "DRAWN BY A. JOLA",
+    "checkedStore": "CHECKED: APP STORE",
+    "checkedRepo": "CHECKED: PUBLIC REPO",
+    "licence": "LICENCE MIT",
+    "fig": "FIG.",
+    "sheet": "SHEET",
+    "of": "OF",
+    "device": "iPHONE 16 PRO · 6.3\"",
+    "scale": "1:1",
+    "renderedFrom": "RENDERED FROM THE DESIGN MOCKUP",
+    "sampleData": "SAMPLE DATA",
+    "schematic": "SCHEMATIC",
+    "notToScale": "NOT TO SCALE",
+    "problem": "PROBLEM",
+    "built": "BUILT",
+    "result": "RESULT",
+    "drawingIndex": "DRAWING INDEX",
+    "menu": "Menu",
+    "stars": "stars",
+    "index": "INDEX"
   },
   "nav": {
     "chip": "AJ / 2026",
@@ -19,11 +45,26 @@
     "toggle": "عربي",
     "toggleHref": "/ar/",
     "items": [
-      { "id": "apps", "text": "Apps" },
-      { "id": "opendxb", "text": "opendxb" },
-      { "id": "huspy", "text": "Huspy" },
-      { "id": "career", "text": "Career" },
-      { "id": "verify", "text": "Verify" }
+      {
+        "id": "apps",
+        "text": "Apps"
+      },
+      {
+        "id": "opendxb",
+        "text": "opendxb"
+      },
+      {
+        "id": "huspy",
+        "text": "Huspy"
+      },
+      {
+        "id": "career",
+        "text": "Career"
+      },
+      {
+        "id": "verify",
+        "text": "Verify"
+      }
     ]
   },
   "hero": {
@@ -39,60 +80,179 @@
     "side": "DUBAI, UAE · SINCE 2013",
     "foot": "Every number links to its source in Verify.",
     "proof": [
-      { "label": "SHIPPED", "n": "4", "unit": "iPhone apps", "sub": "Live on the App Store", "href": "#apps" },
-      { "label": "ENTERPRISE", "n": "700+", "unit": "users", "sub": "On one Salesforce platform, 5 markets", "href": "#huspy" },
-      { "label": "OPEN DATA", "n": "opendxb", "unit": "", "sub": "Open data SDK and a game for Dubai", "href": "#opendxb" },
-      { "label": "GITHUB · 2026", "n": "213", "unit": "commits", "sub": "Across 13 repositories", "href": "#verify" }
+      {
+        "label": "SHIPPED",
+        "n": "4",
+        "unit": "iPhone apps",
+        "sub": "Live on the App Store",
+        "href": "#apps"
+      },
+      {
+        "label": "ENTERPRISE",
+        "n": "700+",
+        "unit": "users",
+        "sub": "On one Salesforce platform, 5 markets",
+        "href": "#huspy"
+      },
+      {
+        "label": "OPEN DATA",
+        "n": "opendxb",
+        "unit": "",
+        "sub": "Open data SDK and a game for Dubai",
+        "href": "#opendxb"
+      },
+      {
+        "label": "GITHUB · 2026",
+        "n": "213",
+        "unit": "commits",
+        "sub": "Across 13 repositories",
+        "href": "#verify"
+      }
     ]
   },
-  "productsSection": { "num": "SECTION 02", "title": "Shipped products" },
+  "productsSection": {
+    "num": "SECTION 02",
+    "title": "Shipped products"
+  },
   "products": [
     {
-      "key": "cue", "code": "CUE", "name": "Cue", "store": "Teleprompter Video Maker: Cue", "sub": "iPhone · App Store",
+      "key": "cue",
+      "code": "CUE",
+      "name": "Cue",
+      "store": "Teleprompter Video Maker: Cue",
+      "sub": "iPhone · App Store",
       "line": "Read your script while looking at the lens. Cue floats the words over the camera so you never lose eye contact.",
-      "version": "v1.0.5", "released": "11 AUG 2026", "rating": 4.7, "id": "6797965705", "site": "cue-app.me", "repo": null,
-      "icon": "icon-cue.png", "shot": "cue-hero.jpg", "figcap": "RECORD SCREEN",
+      "version": "v1.0.5",
+      "released": "11 AUG 2026",
+      "rating": 4.7,
+      "id": "6797965705",
+      "site": "cue-app.me",
+      "repo": null,
+      "icon": "icon-cue.png",
+      "shot": "cue-hero.jpg",
+      "figcap": "RECORD SCREEN",
       "facts": [
-        ["STACK", "Swift, SwiftUI, AVFoundation, StoreKit"],
-        ["FILM IN TAKES", "Record a take, stop, and the script waits where you left it. Combine every take into one video."],
-        ["ROLE", "Solo. Design, code, App Store, marketing site."],
-        ["LANGUAGES", "English, Arabic"]
+        [
+          "STACK",
+          "Swift, SwiftUI, AVFoundation, StoreKit"
+        ],
+        [
+          "FILM IN TAKES",
+          "Record a take, stop, and the script waits where you left it. Combine every take into one video."
+        ],
+        [
+          "ROLE",
+          "Solo. Design, code, App Store, marketing site."
+        ],
+        [
+          "LANGUAGES",
+          "English, Arabic"
+        ]
       ]
     },
     {
-      "key": "clipbridge", "code": "CLIPBRIDGE", "name": "ClipBridge Sync", "store": "ClipBridge Sync", "sub": "iPhone, Android, Windows, Mac · App Store",
+      "key": "clipbridge",
+      "code": "CLIPBRIDGE",
+      "name": "ClipBridge Sync",
+      "store": "ClipBridge Sync",
+      "sub": "iPhone, Android, Windows, Mac · App Store",
       "line": "One clipboard for every device. Copy on your phone, paste on your PC, and back. End-to-end encrypted, so the relay never sees your text.",
-      "version": "v1.0", "released": "05 AUG 2026", "rating": null, "id": "6795485622", "site": "clipbridge.me", "repo": "https://github.com/ahmedjola/clipbridge",
-      "icon": "icon-clipbridge.png", "shot": "clipbridge-hero.jpg", "figcap": "SYNC SCREEN",
+      "version": "v1.0",
+      "released": "05 AUG 2026",
+      "rating": null,
+      "id": "6795485622",
+      "site": "clipbridge.me",
+      "repo": "https://github.com/ahmedjola/clipbridge",
+      "icon": "icon-clipbridge.png",
+      "shot": "clipbridge-hero.jpg",
+      "figcap": "SYNC SCREEN",
       "facts": [
-        ["STACK", "Swift and SwiftUI (iPhone), Kotlin (Android), Electron (Windows, Mac), Node.js relay over WebSockets, APNs"],
-        ["THE HARD PART", "One encryption scheme that four platforms agree on, with a relay that only ever forwards ciphertext."],
-        ["ROLE", "Solo. Four clients, the relay, the App Store and store listings."],
-        ["OPEN", "Public repo: github.com/ahmedjola/clipbridge"]
+        [
+          "STACK",
+          "Swift and SwiftUI (iPhone), Kotlin (Android), Electron (Windows, Mac), Node.js relay over WebSockets, APNs"
+        ],
+        [
+          "THE HARD PART",
+          "One encryption scheme that four platforms agree on, with a relay that only ever forwards ciphertext."
+        ],
+        [
+          "ROLE",
+          "Solo. Four clients, the relay, the App Store and store listings."
+        ],
+        [
+          "OPEN",
+          "Public repo: github.com/ahmedjola/clipbridge"
+        ]
       ]
     },
     {
-      "key": "nuqta", "code": "NUQTA", "name": "NUQTA", "store": "NUQTA", "sub": "iPhone and Apple Watch · App Store",
+      "key": "nuqta",
+      "code": "NUQTA",
+      "name": "NUQTA",
+      "store": "NUQTA",
+      "sub": "iPhone and Apple Watch · App Store",
       "line": "A casual score tally for the games you play with friends. Tap to score on your phone or your wrist, share the live board, and keep the history.",
-      "version": "v1.0", "released": "AUG 2026", "rating": null, "id": "6802782605", "site": "nuqta.app", "repo": null,
-      "icon": "icon-nuqta.png", "shot": "nuqta-hero.jpg", "figcap": "SCORE BOARD",
+      "version": "v1.0",
+      "released": "AUG 2026",
+      "rating": null,
+      "id": "6802782605",
+      "site": "nuqta.app",
+      "repo": null,
+      "icon": "icon-nuqta.png",
+      "shot": "nuqta-hero.jpg",
+      "figcap": "SCORE BOARD",
       "facts": [
-        ["STACK", "Swift, SwiftUI, watchOS, WidgetKit, StoreKit"],
-        ["THE HARD PART", "Phone and watch stay in sync in both directions, even when one of them is asleep."],
-        ["ROLE", "Solo. Phone app, watch app, widgets, App Store."],
-        ["LANGUAGES", "English, Arabic"]
+        [
+          "STACK",
+          "Swift, SwiftUI, watchOS, WidgetKit, StoreKit"
+        ],
+        [
+          "THE HARD PART",
+          "Phone and watch stay in sync in both directions, even when one of them is asleep."
+        ],
+        [
+          "ROLE",
+          "Solo. Phone app, watch app, widgets, App Store."
+        ],
+        [
+          "LANGUAGES",
+          "English, Arabic"
+        ]
       ]
     },
     {
-      "key": "poof", "code": "POOF", "name": "Poof", "store": "Poof: Photos and Media Cleaner", "sub": "iPhone · App Store · Made in Dubai",
+      "key": "poof",
+      "code": "POOF",
+      "name": "Poof",
+      "store": "Poof: Photos and Media Cleaner",
+      "sub": "iPhone · App Store · Made in Dubai",
       "line": "Poof finds copies, blurry shots, screenshots and large videos on your iPhone and clears them in a minute a day. Runs on your phone. Nothing is uploaded.",
-      "version": "v1.0", "released": "AUG 2026", "rating": null, "id": "6805095848", "site": "poof-app.me", "repo": null,
-      "icon": "icon-poof.png", "shot": "poof-hero.jpg", "figcap": "HOME SCREEN",
+      "version": "v1.0",
+      "released": "AUG 2026",
+      "rating": null,
+      "id": "6805095848",
+      "site": "poof-app.me",
+      "repo": null,
+      "icon": "icon-poof.png",
+      "shot": "poof-hero.jpg",
+      "figcap": "HOME SCREEN",
       "facts": [
-        ["STACK", "Swift, SwiftUI, PhotoKit, Vision, ActivityKit, WidgetKit, StoreKit"],
-        ["THE HARD PART", "Scanning tens of thousands of photos on device, resumable after iOS suspends the app, with honest progress in the Dynamic Island."],
-        ["ROLE", "Solo. Engine, app, Live Activity, widgets, App Store."],
-        ["PRIVACY", "Data Not Collected. No analytics, no backend."]
+        [
+          "STACK",
+          "Swift, SwiftUI, PhotoKit, Vision, ActivityKit, WidgetKit, StoreKit"
+        ],
+        [
+          "THE HARD PART",
+          "Scanning tens of thousands of photos on device, resumable after iOS suspends the app, with honest progress in the Dynamic Island."
+        ],
+        [
+          "ROLE",
+          "Solo. Engine, app, Live Activity, widgets, App Store."
+        ],
+        [
+          "PRIVACY",
+          "Data Not Collected. No analytics, no backend."
+        ]
       ]
     }
   ],
@@ -105,14 +265,29 @@
       "headline": "One typed, bilingual data layer for Dubai's open government data",
       "line": "Dubai publishes property, school, health and transit data in four separate silos, each with its own spelling of the same place. opendxb joins them once, in the open: an SDK, a CLI and an MCP server so an AI assistant can answer \"what does it cost to live near an Outstanding school?\" in one call.",
       "facts": [
-        ["SOURCES", "DLD (sales, rents), KHDA (schools), DHA (clinics), RTA (stations)"],
-        ["THE HARD PART", "A community crosswalk that folds Arabic diacritics, ordinals and transliteration variants, and refuses to guess when two areas are too close."],
-        ["STACK", "TypeScript, Node 20, Zod, MCP SDK, Vitest (85 tests), nightly GitHub Action"],
-        ["DATA", "Per-community aggregates committed nightly, so the repo doubles as a public record"]
+        [
+          "SOURCES",
+          "DLD (sales, rents), KHDA (schools), DHA (clinics), RTA (stations)"
+        ],
+        [
+          "THE HARD PART",
+          "A community crosswalk that folds Arabic diacritics, ordinals and transliteration variants, and refuses to guess when two areas are too close."
+        ],
+        [
+          "STACK",
+          "TypeScript, Node 20, Zod, MCP SDK, Vitest (85 tests), nightly GitHub Action"
+        ],
+        [
+          "DATA",
+          "Per-community aggregates committed nightly, so the repo doubles as a public record"
+        ]
       ],
-      "repo": "https://github.com/ahmedjola/opendxb", "repoLabel": "github.com/ahmedjola/opendxb",
-      "npm": "https://www.npmjs.com/package/opendxb", "npmLabel": "npm",
-      "docs": "https://github.com/ahmedjola/opendxb/tree/main/docs", "docsLabel": "Docs"
+      "repo": "https://github.com/ahmedjola/opendxb",
+      "repoLabel": "github.com/ahmedjola/opendxb",
+      "npm": "https://www.npmjs.com/package/opendxb",
+      "npmLabel": "npm",
+      "docs": "https://github.com/ahmedjola/opendxb/tree/main/docs",
+      "docsLabel": "Docs"
     },
     "game": {
       "title": "Landing in Dubai",
@@ -123,13 +298,31 @@
       "headline": "An unofficial guide for people arriving in Dubai",
       "line": "The errands are not independent. No bank account without an Emirates ID, no DEWA without Ejari, no tenancy without a visa. People lose weeks discovering that one queue at a time. The game shows what blocks what.",
       "ways": [
-        { "k": "WAY IN 1", "t": "The site", "d": "Arrival, the fork, your first 90 days as a dependency-aware path." },
-        { "k": "WAY IN 2", "t": "The game", "d": "A walkable pixel city. Each building answers one thing you need to sort out." },
-        { "k": "WAY IN 3", "t": "The plain guide", "d": "Keyboard-navigable HTML. Nobody has to play a game to read a government fact." }
+        {
+          "k": "WAY IN 1",
+          "t": "The site",
+          "d": "Arrival, the fork, your first 90 days as a dependency-aware path."
+        },
+        {
+          "k": "WAY IN 2",
+          "t": "The game",
+          "d": "A walkable pixel city. Each building answers one thing you need to sort out."
+        },
+        {
+          "k": "WAY IN 3",
+          "t": "The plain guide",
+          "d": "Keyboard-navigable HTML. Nobody has to play a game to read a government fact."
+        }
       ],
       "facts": [
-        ["RULES IT IS BUILT ON", "Every answer cites an official source and the date it was checked. A test fails the build if one does not. No fees, timelines or document lists, because they change."],
-        ["STACK", "TypeScript, Phaser 3, Vite, Vitest (44 tests). Progress in localStorage only, no accounts."]
+        [
+          "RULES IT IS BUILT ON",
+          "Every answer cites an official source and the date it was checked. A test fails the build if one does not. No fees, timelines or document lists, because they change."
+        ],
+        [
+          "STACK",
+          "TypeScript, Phaser 3, Vite, Vitest (44 tests). Progress in localStorage only, no accounts."
+        ]
       ],
       "play": "Play it: opendxb.io",
       "guide": "Read the plain guide",
@@ -143,59 +336,152 @@
     "headline": "The Salesforce platform 700+ people use every day",
     "line": "Since November 2021 I have owned Huspy's Salesforce platform: real estate and mortgage teams across the UAE, Spain, Italy, Turkey and France. I lead the developers and I still write the code. Six pieces of that work, drawn as case studies.",
     "facts": [
-      ["SCALE", "700+ users, 5 markets, two business units"],
-      ["AUTOMATION", "Flows, Apex and LWC that cut manual sales-ops effort by about 30%"],
-      ["PROCESS", "BPMN and Camunda 8 for the mortgage journey, lead to disbursal"],
-      ["HOW THIS IS SHOWN", "Rendered from the design mockups with sample data. No customer records, no employee names."]
+      [
+        "SCALE",
+        "700+ users, 5 markets, two business units"
+      ],
+      [
+        "AUTOMATION",
+        "Flows, Apex and LWC that cut manual sales-ops effort by about 30%"
+      ],
+      [
+        "PROCESS",
+        "BPMN and Camunda 8 for the mortgage journey, lead to disbursal"
+      ],
+      [
+        "HOW THIS IS SHOWN",
+        "Rendered from the design mockups with sample data. No customer records, no employee names."
+      ]
     ],
     "indexLabel": "DRAWING INDEX",
     "footer": "DRAWN BY A. JOLA · SENIOR MANAGER, CRM SOLUTIONS",
     "footerRight": "NO CUSTOMER DATA · EMPLOYER WORK, SHOWN AS A CASE STUDY",
     "cases": [
       {
-        "key": "agency-tracker", "code": "AGENCY TRACKER", "name": "Agency Tracker", "tag": "Partner lifecycle platform for real-estate agencies",
-        "status": "IN PRODUCTION", "years": "2026", "size": "25 LWC · 34 APEX", "shot": "huspy-agencytracker.jpg",
-        "stack": ["LWC", "Apex", "SOQL aggregates", "Flow", "Custom Metadata", "Permission Sets", "Python"],
+        "key": "agency-tracker",
+        "code": "AGENCY TRACKER",
+        "name": "Agency Tracker",
+        "tag": "Partner lifecycle platform for real-estate agencies",
+        "status": "IN PRODUCTION",
+        "years": "2026",
+        "size": "25 LWC · 34 APEX",
+        "shot": "huspy-agencytracker.jpg",
+        "stack": [
+          "LWC",
+          "Apex",
+          "SOQL aggregates",
+          "Flow",
+          "Custom Metadata",
+          "Permission Sets",
+          "Python"
+        ],
         "problem": "Business development managers looked after hundreds of partner agencies with only aggregate numbers. Nobody could see which agency was going quiet, churning or producing without opening records one at a time.",
         "built": "A mini-CRM inside Salesforce: a KPI strip, overview and at-risk tabs, a churn board bucketed by months of silence, a slide-out agency panel, and a bulk console that assigns churned agencies to a manager with a six-month activation window. Underneath, a health-score engine, role-scoped data access for BDM, manager and GM, a sharing batch, and an access-audit panel over the visit log.",
         "impact": "Over 1,100 churned agencies became a worked list instead of a blind spot. Target set in the spec: know who to call in under 30 seconds. Rolled out with a partner portal and an onboarding form."
       },
       {
-        "key": "mbu-tv", "code": "MBU TV DASHBOARDS", "name": "Office TV dashboards", "tag": "Live wallboards for the mortgage business unit",
-        "status": "IN PRODUCTION", "years": "2026", "size": "13 LWC · 22 APEX", "shot": "huspy-mbu-tv.jpg",
-        "stack": ["LWC", "Apex", "SOQL", "Custom Metadata", "Jest", "Python"],
+        "key": "mbu-tv",
+        "code": "MBU TV DASHBOARDS",
+        "name": "Office TV dashboards",
+        "tag": "Live wallboards for the mortgage business unit",
+        "status": "IN PRODUCTION",
+        "years": "2026",
+        "size": "13 LWC · 22 APEX",
+        "shot": "huspy-mbu-tv.jpg",
+        "stack": [
+          "LWC",
+          "Apex",
+          "SOQL",
+          "Custom Metadata",
+          "Jest",
+          "Python"
+        ],
         "problem": "Managers and the office floor had no live month-to-date view of disbursed volume against target, and the learning team could not see how new joiners performed after onboarding.",
         "built": "A 1080p auto-refreshing wallboard family: target versus achievement with a pace marker and run rate, per-region team bars, a top-five leaderboard, and sister boards for bank operations, credit and mortgage advisers. One thin controller reuses the existing dashboard calculations so the TV never shows a different number from the report. Plus an L&D app for 30, 60 and 90-day new-joiner cohorts, a campaign monitor, and metadata-driven configuration so managers set targets without a developer.",
         "impact": "Three regions and four teams on one screen, refreshed every five minutes, with the month-to-date figure cross-checked against an independent query before launch."
       },
       {
-        "key": "mc360", "code": "MC360", "name": "MC360: the consultant's cockpit", "tag": "One working surface for mortgage consultants",
-        "status": "IN QA", "years": "2025 · 2026", "size": "16 LWC · 3 APEX", "schematic": "mc360",
-        "stack": ["LWC", "Apex", "SOQL", "Chart.js", "CSS design tokens", "Jest"],
+        "key": "mc360",
+        "code": "MC360",
+        "name": "MC360: the consultant's cockpit",
+        "tag": "One working surface for mortgage consultants",
+        "status": "IN QA",
+        "years": "2025 · 2026",
+        "size": "16 LWC · 3 APEX",
+        "schematic": "mc360",
+        "stack": [
+          "LWC",
+          "Apex",
+          "SOQL",
+          "Chart.js",
+          "CSS design tokens",
+          "Jest"
+        ],
         "problem": "Mortgage consultants found standard Salesforce navigation slow. Their leads, tasks and SLA countdowns lived on separate record pages with no single place to work from.",
         "built": "A shell with segmented tabs and a persisted theme over three surfaces: a dashboard with count-up KPI cards, a source chart and an activity feed; a four-column leads board with drag-to-convert and a sortable infinite-scroll list; and a to-do focus panel with a large countdown and colour-coded urgency rails. The controller merges open tasks with active SLA records and surfaces the escalation stage, from original owner to team lead.",
         "impact": "Replaced about 1,100 lines of ad-hoc page JavaScript with a token-based component system. In QA at time of writing."
       },
       {
-        "key": "primary-hub", "code": "PRIMARY HUB", "name": "Primary Hub: a CRM suite for the sales team", "tag": "Kanban, chat, calendar, clock-in and dashboards",
-        "status": "IN PRODUCTION", "years": "2025", "size": "25 LWC · 32 APEX", "schematic": "crm",
-        "stack": ["LWC", "Apex", "Platform Events", "Flows", "Custom Metadata", "Scheduled Apex", "Experience Cloud"],
+        "key": "primary-hub",
+        "code": "PRIMARY HUB",
+        "name": "Primary Hub: a CRM suite for the sales team",
+        "tag": "Kanban, chat, calendar, clock-in and dashboards",
+        "status": "IN PRODUCTION",
+        "years": "2025",
+        "size": "25 LWC · 32 APEX",
+        "schematic": "crm",
+        "stack": [
+          "LWC",
+          "Apex",
+          "Platform Events",
+          "Flows",
+          "Custom Metadata",
+          "Scheduled Apex",
+          "Experience Cloud"
+        ],
         "problem": "The primary real-estate team worked leads, listings, calendars, attendance and internal messages across disconnected pages, with no shared board, no in-org chat, and no way to see who was viewing which record.",
         "built": "A component suite: a metadata-driven Kanban with stage validation rules, a real-time chat stack on platform events with presence, a team calendar, clock-in and clock-out, advanced search, a properties list, commission and satisfaction dashboards, and lead conversion with team split. Page-view telemetry flows through a platform event into a visit log with a scheduled cleanup. Deployable to Experience Cloud as a partner hub.",
         "impact": "One suite, six flows and four platform events, replacing a set of disconnected pages for the whole primary team."
       },
       {
-        "key": "ai-pool", "code": "AI LEAD QUALIFICATION", "name": "AI lead qualification pipeline", "tag": "Event-driven backend with two retry tiers",
-        "status": "IN PRODUCTION", "years": "2025", "size": "34 APEX · 2 TRIGGERS", "schematic": "ai",
-        "stack": ["Apex", "Triggers", "Queueable", "Scheduled Apex", "Platform Events", "Named Credentials", "REST", "LWC"],
+        "key": "ai-pool",
+        "code": "AI LEAD QUALIFICATION",
+        "name": "AI lead qualification pipeline",
+        "tag": "Event-driven backend with two retry tiers",
+        "status": "IN PRODUCTION",
+        "years": "2025",
+        "size": "34 APEX · 2 TRIGGERS",
+        "schematic": "ai",
+        "stack": [
+          "Apex",
+          "Triggers",
+          "Queueable",
+          "Scheduled Apex",
+          "Platform Events",
+          "Named Credentials",
+          "REST",
+          "LWC"
+        ],
         "problem": "Leads landing in the pool had to be qualified by people calling them one by one, with no guard against calling the same number twice and no view of what was in flight.",
         "built": "A trigger that fires only on the transition into the pool, a handler with row locks and duplicate-phone detection, queueable and scheduled services that keep calls inside Dubai calling hours and roll to the next business day, and a callout service to the qualification API through a named credential. Two retry tiers on top: technical retries from custom settings, and business retries written to their own object. A dashboard refreshes every 30 seconds from monitor events.",
         "impact": "Internal figures: manual first-call qualification cut by about 95%, and roughly 40% more leads reached thanks to the retry tiers."
       },
       {
-        "key": "access-audit", "code": "ACCESS AUDIT", "name": "Record-access audit and reports", "tag": "Who saw what, when, and whether they should have",
-        "status": "DELIVERED", "years": "2026", "size": "PYTHON · SOQL · 6 PDF", "schematic": "audit",
-        "stack": ["Python", "SOQL", "Salesforce CLI", "openpyxl", "PDF generation"],
+        "key": "access-audit",
+        "code": "ACCESS AUDIT",
+        "name": "Record-access audit and reports",
+        "tag": "Who saw what, when, and whether they should have",
+        "status": "DELIVERED",
+        "years": "2026",
+        "size": "PYTHON · SOQL · 6 PDF",
+        "schematic": "audit",
+        "stack": [
+          "Python",
+          "SOQL",
+          "Salesforce CLI",
+          "openpyxl",
+          "PDF generation"
+        ],
         "problem": "A record-visit log existed but nobody analysed it, so nobody could say whether people were opening loan applications they had no ownership claim to.",
         "built": "A Python pipeline over SOQL exports that joins the visit log to each application's six ownership fields, classifies every view as inside or outside an ownership claim, and aggregates by user, team, bank and status. Generators render executive PDF reports and per-user spreadsheets. The same schema work later became the access-audit dashboard inside Agency Tracker.",
         "impact": "Over 140,000 record views analysed across six months, with the share outside any ownership claim broken down per team. Delivered to leadership as six reports; figures and names stay internal."
@@ -206,18 +492,47 @@
     "num": "SECTION 05",
     "title": "Career and credentials",
     "jobs": [
-      { "dates": "NOV 2021 · NOW", "company": "Huspy", "role": "Senior Manager, CRM Solutions", "desc": "Owns the Salesforce platform for 700+ users in 5 markets. Leads the developers, ships Flows, Apex and LWC, drives the BPMN and Camunda 8 mortgage automation and the migration to an in-house CRM." },
-      { "dates": "SEP 2018 · FEB 2021", "company": "noon", "role": "Lead, CRM and Process Improvement", "desc": "Zendesk support and sales-ops workflow, 15 process enhancements, machine-learning models to predict customer behaviour." },
-      { "dates": "JUL 2015 · SEP 2018", "company": "du", "role": "SME, Customer Journey, Retail", "desc": "Integrated CRM dashboard for retail with real-time customer and sales insight." },
-      { "dates": "SEP 2013 · JUN 2015", "company": "Aramex", "role": "Sales Operations and CRM Expert", "desc": "End-to-end CRM operations, lead and opportunity processes, performance dashboards." }
+      {
+        "dates": "NOV 2021 · NOW",
+        "company": "Huspy",
+        "role": "Senior Manager, CRM Solutions",
+        "desc": "Owns the Salesforce platform for 700+ users in 5 markets. Leads the developers, ships Flows, Apex and LWC, drives the BPMN and Camunda 8 mortgage automation and the migration to an in-house CRM."
+      },
+      {
+        "dates": "SEP 2018 · FEB 2021",
+        "company": "noon",
+        "role": "Lead, CRM and Process Improvement",
+        "desc": "Zendesk support and sales-ops workflow, 15 process enhancements, machine-learning models to predict customer behaviour."
+      },
+      {
+        "dates": "JUL 2015 · SEP 2018",
+        "company": "du",
+        "role": "SME, Customer Journey, Retail",
+        "desc": "Integrated CRM dashboard for retail with real-time customer and sales insight."
+      },
+      {
+        "dates": "SEP 2013 · JUN 2015",
+        "company": "Aramex",
+        "role": "Sales Operations and CRM Expert",
+        "desc": "End-to-end CRM operations, lead and opportunity processes, performance dashboards."
+      }
     ],
     "certsLabel": "CERTIFICATIONS",
     "certs": [
-      { "name": "Salesforce Certified Sales Cloud Consultant", "id": "ID 7881307 · JUN 2026" },
-      { "name": "Salesforce Certified Administrator", "id": "ID 3757396" },
-      { "name": "Full Stack Development Track", "id": "ID Q9NAF9PA" }
+      {
+        "name": "Salesforce Certified Sales Cloud Consultant",
+        "id": "ID 7881307 · JUN 2026"
+      },
+      {
+        "name": "Salesforce Certified Administrator",
+        "id": "ID 3757396"
+      },
+      {
+        "name": "Full Stack Development Track",
+        "id": "ID Q9NAF9PA"
+      }
     ],
-    "verifyLine": "Verify any ID at trailhead.salesforce.com/credentials/verification",
+    "verifyLine": "Verify any ID at",
     "eduLabel": "EDUCATION",
     "degree": "BSc Aeronautical Engineering",
     "school": "Sudan University of Science and Technology, 2006 to 2011",
@@ -234,20 +549,76 @@
     "email": "ahjo2020@yahoo.com",
     "linkedin": "linkedin.com/in/ahmedjola",
     "rows": [
-      { "kind": "App Store", "name": "Teleprompter Video Maker: Cue", "url": "https://apps.apple.com/app/id6797965705" },
-      { "kind": "App Store", "name": "ClipBridge Sync", "url": "https://apps.apple.com/app/id6795485622" },
-      { "kind": "App Store", "name": "NUQTA", "url": "https://apps.apple.com/app/id6802782605" },
-      { "kind": "App Store", "name": "Poof: Photos and Media Cleaner", "url": "https://apps.apple.com/app/id6805095848" },
-      { "kind": "Website", "name": "Cue", "url": "https://www.cue-app.me" },
-      { "kind": "Website", "name": "ClipBridge", "url": "https://clipbridge.me" },
-      { "kind": "Website", "name": "NUQTA", "url": "https://www.nuqta.app" },
-      { "kind": "Website", "name": "Poof", "url": "https://www.poof-app.me" },
-      { "kind": "Live", "name": "Landing in Dubai (opendxb)", "url": "https://opendxb.io" },
-      { "kind": "GitHub", "name": "Profile, 13 repositories", "url": "https://github.com/ahmedjola" },
-      { "kind": "GitHub", "name": "opendxb, MIT, public", "url": "https://github.com/ahmedjola/opendxb" },
-      { "kind": "GitHub", "name": "ClipBridge, public", "url": "https://github.com/ahmedjola/clipbridge" },
-      { "kind": "LinkedIn", "name": "Ahmed Jola", "url": "https://www.linkedin.com/in/ahmedjola" },
-      { "kind": "Salesforce", "name": "Credential verification (IDs 7881307, 3757396)", "url": "https://trailhead.salesforce.com/credentials/verification" }
+      {
+        "kind": "App Store",
+        "name": "Teleprompter Video Maker: Cue",
+        "url": "https://apps.apple.com/app/id6797965705"
+      },
+      {
+        "kind": "App Store",
+        "name": "ClipBridge Sync",
+        "url": "https://apps.apple.com/app/id6795485622"
+      },
+      {
+        "kind": "App Store",
+        "name": "NUQTA",
+        "url": "https://apps.apple.com/app/id6802782605"
+      },
+      {
+        "kind": "App Store",
+        "name": "Poof: Photos and Media Cleaner",
+        "url": "https://apps.apple.com/app/id6805095848"
+      },
+      {
+        "kind": "Website",
+        "name": "Cue",
+        "url": "https://www.cue-app.me"
+      },
+      {
+        "kind": "Website",
+        "name": "ClipBridge",
+        "url": "https://clipbridge.me"
+      },
+      {
+        "kind": "Website",
+        "name": "NUQTA",
+        "url": "https://www.nuqta.app"
+      },
+      {
+        "kind": "Website",
+        "name": "Poof",
+        "url": "https://www.poof-app.me"
+      },
+      {
+        "kind": "Live",
+        "name": "Landing in Dubai (opendxb)",
+        "url": "https://opendxb.io"
+      },
+      {
+        "kind": "GitHub",
+        "name": "Profile, 13 repositories",
+        "url": "https://github.com/ahmedjola"
+      },
+      {
+        "kind": "GitHub",
+        "name": "opendxb, MIT, public",
+        "url": "https://github.com/ahmedjola/opendxb"
+      },
+      {
+        "kind": "GitHub",
+        "name": "ClipBridge, public",
+        "url": "https://github.com/ahmedjola/clipbridge"
+      },
+      {
+        "kind": "LinkedIn",
+        "name": "Ahmed Jola",
+        "url": "https://www.linkedin.com/in/ahmedjola"
+      },
+      {
+        "kind": "Salesforce",
+        "name": "Credential verification (IDs 7881307, 3757396)",
+        "url": "https://trailhead.salesforce.com/credentials/verification"
+      }
     ]
   },
   "footer": {

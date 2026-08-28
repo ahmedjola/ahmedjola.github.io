@@ -18,7 +18,7 @@ const Case = z.object({
 
 export const ContentSchema = z.object({
   meta: z.object({ title: z.string(), description: z.string(), url: z.string(), lastUpdated: z.string() }),
-  labels: z.record(z.string()),
+  labels: z.record(z.string(), z.string()),
   nav: z.object({
     chip: z.string(), sheet: z.string(), toggle: z.string(), toggleHref: z.string(),
     items: z.array(z.object({ id: z.string(), text: z.string() })).length(5),
