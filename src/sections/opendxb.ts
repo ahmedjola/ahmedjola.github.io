@@ -11,7 +11,7 @@ export function opendxb(c: Content): Raw {
     <div class="terminal">
       <div class="terminal-cap mono">${s.figcap}</div>
       <pre class="mono">${s.terminal}</pre>
-      <div class="terminal-foot mono"><span>npm: opendxb</span><span>node 20+ · MIT</span></div>
+      <div class="terminal-foot mono"><span>github.com/ahmedjola/opendxb</span><span>node 20+ · MIT</span></div>
     </div>
     <article class="sheet sdk-sheet">
       ${titleBlock([{ label: L.project, value: "OPENDXB" }, { label: L.status, value: L.live, status: true }, { label: L.rev, value: "v0.1.0" }, { label: L.since, value: "AUG 2026" }])}
@@ -19,7 +19,7 @@ export function opendxb(c: Content): Raw {
         <h3 class="sheet-title">${s.headline}</h3>
         <p class="sheet-lead">${s.line}</p>
         <div class="facts">${s.facts.map(([l, v]) => fact(l, v))}</div>
-        <div class="sheet-actions">${btn(s.repoLabel, { href: s.repo, primary: true, icon: "arrow", external: true })}${btn(s.npmLabel, { href: s.npm, external: true })}${btn(s.docsLabel, { href: s.docs, external: true })}</div>
+        <div class="sheet-actions">${btn(s.repoLabel, { href: s.repo, primary: true, icon: "arrow", external: true })}${btn(s.docsLabel, { href: s.docs, external: true })}</div>
       </div>
       ${sheetFoot([L.drawnBy, L.licence, L.checkedRepo])}
     </article>

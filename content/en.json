@@ -294,7 +294,7 @@
       "figcap": "FIG. 7 · ARRIVAL SCENE",
       "shot": "opendxb-landing.jpg",
       "thumb": "opendxb-city.jpg",
-      "url": "https://opendxb.io",
+      "url": "https://www.opendxb.io",
       "headline": "An unofficial guide for people arriving in Dubai",
       "line": "The errands are not independent. No bank account without an Emirates ID, no DEWA without Ejari, no tenancy without a visa. People lose weeks discovering that one queue at a time. The game shows what blocks what.",
       "ways": [
@@ -326,7 +326,7 @@
       ],
       "play": "Play it: opendxb.io",
       "guide": "Read the plain guide",
-      "guideUrl": "https://opendxb.io/guide",
+      "guideUrl": "https://www.opendxb.io/guide",
       "unofficial": "UNOFFICIAL · NOT A GOVERNMENT SITE"
     }
   },
@@ -592,7 +592,7 @@
       {
         "kind": "Live",
         "name": "Landing in Dubai (opendxb)",
-        "url": "https://opendxb.io"
+        "url": "https://www.opendxb.io"
       },
       {
         "kind": "GitHub",
