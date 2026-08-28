@@ -275,7 +275,7 @@
         ],
         [
           "STACK",
-          "TypeScript, Node 20, Zod, MCP SDK, Vitest (85 tests), nightly GitHub Action"
+          "TypeScript, Node 20, Zod, MCP SDK, Vitest (105 tests), nightly GitHub Action"
         ],
         [
           "DATA",
