@@ -1,0 +1,18 @@
+{
+  "name": "ahmedjola.github.io",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "test": "vitest run",
+    "check": "tsc --noEmit && vitest run && tsx scripts/build.ts",
+    "dev": "tsx scripts/build.ts && npx serve dist"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11",
+    "zod": "^4.4.3"
+  }
+}
