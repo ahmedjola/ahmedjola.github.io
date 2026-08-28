@@ -46,6 +46,7 @@ export function renderPage(lang: "en" | "ar"): string {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
 <link rel="stylesheet" href="${FONTS}">
+<noscript><style>.nav-links{display:flex}</style></noscript>
 <script type="application/ld+json">${raw(JSON.stringify(ld))}</script>
 </head>
 <body class="${lang === "ar" ? "ar" : "en"}">
