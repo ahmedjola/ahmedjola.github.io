@@ -4,7 +4,7 @@ import { nav } from "../src/sections/nav";
 import { hero } from "../src/sections/hero";
 import { products } from "../src/sections/products";
 import { opendxb } from "../src/sections/opendxb";
-import { huspy } from "../src/sections/huspy";
+import { enterprise } from "../src/sections/enterprise";
 import { career } from "../src/sections/career";
 import { verify, footer } from "../src/sections/verify";
 
@@ -38,8 +38,8 @@ for (const lang of ["en", "ar"] as const) {
       expect(s).toContain("opendxb.io");
       expect(s.match(/class="way"/g)).toHaveLength(3);
     });
-    it("huspy renders six index rows, six case sheets, four schematics", () => {
-      const s = String(huspy(c));
+    it("enterprise renders six index rows, six case sheets, four schematics", () => {
+      const s = String(enterprise(c));
       expect(s.match(/class="index-row"/g)).toHaveLength(6);
       expect(s.match(/class="sheet case-sheet"/g)).toHaveLength(6);
       expect(s.match(/<svg class="schematic"/g)).toHaveLength(4);

@@ -174,9 +174,9 @@ body.ar .sheet-foot { letter-spacing: 0; text-transform: none; }
 .game-thumb-row { display: flex; gap: 12px; align-items: flex-end; margin-top: auto; }
 .game-thumb { width: 200px; height: 125px; object-fit: cover; border: var(--rule); flex: none; }
 
-/* huspy */
-.huspy-intro { display: grid; grid-template-columns: 560px minmax(0, 1fr); gap: 32px; margin-bottom: 64px; }
-.huspy-text { display: flex; flex-direction: column; gap: 22px; }
+/* enterprise */
+.ent-intro { display: grid; grid-template-columns: 560px minmax(0, 1fr); gap: 32px; margin-bottom: 64px; }
+.ent-text { display: flex; flex-direction: column; gap: 22px; }
 .index { padding: 22px 26px; }
 .index-rows { margin-top: 10px; display: flex; flex-direction: column; }
 .index-row { display: grid; grid-template-columns: 48px minmax(0, 1fr) minmax(0, 1fr) 150px; gap: 16px; padding: 12px 0; border-bottom: var(--hair); font-size: 15px; align-items: center; text-decoration: none; min-height: 44px; }
@@ -257,7 +257,7 @@ body.ar .site-footer { letter-spacing: 0; text-transform: none; }
   .sdk-grid { grid-template-columns: minmax(0, 1fr); }
   .game-sheet, .case-grid { grid-template-columns: minmax(0, 1fr); }
   .game-fig, .case-body { border-inline-end: 0; border-bottom: var(--rule); }
-  .huspy-intro, .career-grid, .verify-grid { grid-template-columns: minmax(0, 1fr); }
+  .ent-intro, .career-grid, .verify-grid { grid-template-columns: minmax(0, 1fr); }
   .nav-sheet { display: none; }
 }
 
@@ -403,7 +403,7 @@ body.ar .site-footer { letter-spacing: 0; text-transform: none; }
   .ways { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .way { padding: 8px 10px; } .way-t { font-size: 12px; } .way-d { font-size: 10px; }
   .game-thumb { width: 120px; height: 75px; }
-  .huspy-intro { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin-bottom: 16px; }
+  .ent-intro { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin-bottom: 16px; }
   .index { padding: 10px 14px; }
   .index-row { padding: 6px 0; font-size: 11px; grid-template-columns: 30px minmax(0, 1fr) minmax(0, 1fr) 110px; gap: 8px; min-height: 0; }
   .index-size { font-size: 9px; }

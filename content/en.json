@@ -56,8 +56,8 @@
         "text": "opendxb"
       },
       {
-        "id": "huspy",
-        "text": "Huspy"
+        "id": "enterprise",
+        "text": "Enterprise"
       },
       {
         "id": "career",
@@ -94,7 +94,7 @@
         "n": "700+",
         "unit": "users",
         "sub": "On one Salesforce platform, 5 markets",
-        "href": "#huspy"
+        "href": "#enterprise"
       },
       {
         "label": "OPEN DATA",
@@ -332,11 +332,11 @@
       "unofficial": "UNOFFICIAL · NOT A GOVERNMENT SITE"
     }
   },
-  "huspy": {
+  "enterprise": {
     "num": "SECTION 04",
-    "title": "Enterprise engineering at Huspy",
+    "title": "Enterprise engineering",
     "headline": "The Salesforce platform 700+ people use every day",
-    "line": "Since November 2021 I have owned Huspy's Salesforce platform: real estate and mortgage teams across the UAE, Spain, Italy, Turkey and France. I lead the developers and I still write the code. Six pieces of that work, drawn as case studies.",
+    "line": "Since November 2021 I have owned the Salesforce platform at a proptech company: real estate and mortgage teams across the UAE, Spain, Italy, Turkey and France. I lead the developers and I still write the code. Six pieces of that work, drawn as case studies.",
     "facts": [
       [
         "SCALE",
@@ -367,7 +367,7 @@
         "status": "IN PRODUCTION",
         "years": "2026",
         "size": "25 LWC · 34 APEX",
-        "shot": "huspy-agencytracker.jpg",
+        "shot": "case-agency-tracker.jpg",
         "stack": [
           "LWC",
           "Apex",
@@ -389,7 +389,7 @@
         "status": "IN PRODUCTION",
         "years": "2026",
         "size": "13 LWC · 22 APEX",
-        "shot": "huspy-mbu-tv.jpg",
+        "shot": "case-tv-dashboards.jpg",
         "stack": [
           "LWC",
           "Apex",

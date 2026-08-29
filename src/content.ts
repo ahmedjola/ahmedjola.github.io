@@ -35,7 +35,7 @@ export const ContentSchema = z.object({
     sdk: z.object({ figcap: z.string(), terminal: z.string(), headline: z.string(), line: z.string(), facts: z.array(Pair).length(4), repo: z.string(), npm: z.string(), docs: z.string(), repoLabel: z.string(), npmLabel: z.string(), docsLabel: z.string() }),
     game: z.object({ title: z.string(), figcap: z.string(), shot: z.string(), thumb: z.string(), url: z.string(), headline: z.string(), line: z.string(), ways: z.array(z.object({ k: z.string(), t: z.string(), d: z.string() })).length(3), facts: z.array(Pair).length(2), play: z.string(), guide: z.string(), guideUrl: z.string(), unofficial: z.string() }),
   }),
-  huspy: z.object({
+  enterprise: z.object({
     num: z.string(), title: z.string(), headline: z.string(), line: z.string(), facts: z.array(Pair).length(4),
     indexLabel: z.string(), cases: z.array(Case), footer: z.string(), footerRight: z.string(),
   }),

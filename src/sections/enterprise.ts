@@ -3,14 +3,14 @@ import { h, Raw } from "../html";
 import { chips, fact, label, sectionHead, sheetFoot, titleBlock } from "../primitives";
 import { schematic } from "../schematics";
 
-export function huspy(c: Content): Raw {
+export function enterprise(c: Content): Raw {
   const L = c.labels;
-  const H = c.huspy;
+  const H = c.enterprise;
   const n = H.cases.length;
-  return h`<section class="section" id="huspy" aria-labelledby="huspy-title">
-  ${sectionHead(H.num, H.title, `${L.sheet} 04 · ${L.index}`, "huspy-title")}
-  <div class="huspy-intro">
-    <div class="huspy-text">
+  return h`<section class="section" id="enterprise" aria-labelledby="enterprise-title">
+  ${sectionHead(H.num, H.title, `${L.sheet} 04 · ${L.index}`, "enterprise-title")}
+  <div class="ent-intro">
+    <div class="ent-text">
       <h3 class="sheet-title">${H.headline}</h3>
       <p class="sheet-lead">${H.line}</p>
       <div class="facts">${H.facts.map(([l, v]) => fact(l, v))}</div>

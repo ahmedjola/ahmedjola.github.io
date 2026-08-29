@@ -1,6 +1,6 @@
 # ahmedjola.github.io
 
-Ahmed Jola, Software Engineer and Product Builder in Dubai. A static, bilingual (English at `/`, Arabic at `/ar/`) portfolio: four iPhone apps on the App Store, the opendxb open data layer and game, and six enterprise case studies from Huspy's Salesforce platform. Every claim on the page links to where it can be checked.
+Ahmed Jola, Software Engineer and Product Builder in Dubai. A static, bilingual (English at `/`, Arabic at `/ar/`) portfolio: four iPhone apps on the App Store, the opendxb open data layer and game, and six enterprise Salesforce case studies. Every claim on the page links to where it can be checked.
 
 ## Run it
 

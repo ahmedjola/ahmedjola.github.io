@@ -4,7 +4,7 @@ import { nav } from "./sections/nav";
 import { hero } from "./sections/hero";
 import { products } from "./sections/products";
 import { opendxb } from "./sections/opendxb";
-import { huspy } from "./sections/huspy";
+import { enterprise } from "./sections/enterprise";
 import { career } from "./sections/career";
 import { verify, footer } from "./sections/verify";
 
@@ -56,7 +56,7 @@ ${nav(c, lang)}
 ${hero(c)}
 ${products(c)}
 ${opendxb(c)}
-${huspy(c)}
+${enterprise(c)}
 ${career(c)}
 ${verify(c)}
 </main>
