@@ -2,6 +2,7 @@ import { mkdirSync, writeFileSync, cpSync, readFileSync, rmSync, existsSync } fr
 import { fileURLToPath } from "node:url";
 import { renderPage } from "../src/page";
 import { loadContent } from "../src/content";
+import { renderNoggin, NOGGIN, type NogginPage } from "../src/noggin";
 
 const ROOT = fileURLToPath(new URL("..", import.meta.url));
 
@@ -13,6 +14,10 @@ export async function build(out = "dist"): Promise<void> {
   cpSync(`${ROOT}public`, outDir, { recursive: true });
 
   const pages: Record<string, string> = { "index.html": renderPage("en"), "ar/index.html": renderPage("ar") };
+  for (const [k, f] of Object.entries(NOGGIN.pages)) {
+    mkdirSync(`${outDir}/${f.replace(/\/index\.html$/, "")}`, { recursive: true });
+    pages[f] = renderNoggin(k as NogginPage);
+  }
   for (const [f, html] of Object.entries(pages)) {
     if (/\[[A-Z ]+\]/.test(html)) throw new Error(`placeholder left in ${f}`);
     if (html.includes("—")) throw new Error(`em dash in ${f}`);
@@ -25,7 +30,10 @@ export async function build(out = "dist"): Promise<void> {
   writeFileSync(`${outDir}/assets/site.js`, readFileSync(`${ROOT}src/client.js`));
 
   const c = loadContent("en");
-  const urls = [`${c.meta.url}/`, `${c.meta.url}/ar/`].map(u => `<url><loc>${u}</loc><lastmod>${c.meta.lastUpdated}</lastmod></url>`).join("");
+  const urls = [
+    ...[`${c.meta.url}/`, `${c.meta.url}/ar/`].map(u => [u, c.meta.lastUpdated]),
+    ...Object.values(NOGGIN.pages).map(f => [`${c.meta.url}/${f.replace(/index\.html$/, "")}`, NOGGIN.updatedIso]),
+  ].map(([u, d]) => `<url><loc>${u}</loc><lastmod>${d}</lastmod></url>`).join("");
   writeFileSync(`${outDir}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}</urlset>\n`);
   writeFileSync(`${outDir}/.nojekyll`, "");
   console.log(`built ${out}`);

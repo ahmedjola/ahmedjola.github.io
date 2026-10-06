@@ -426,3 +426,44 @@ body.ar .site-footer { letter-spacing: 0; text-transform: none; }
   .verify-url { font-size: 9px; }
   .site-footer { margin: 16px 0 0; padding: 8px 0 0; font-size: 8px; }
 }
+
+/* Noggin pages (/noggin/, /noggin/privacy/, /noggin/support/) */
+.nk-links { display: flex; flex-wrap: wrap; gap: 4px 28px; }
+.nk-links a { text-decoration: none; font-size: 14px; font-weight: 500; min-height: 44px; display: inline-flex; align-items: center; }
+.nk-links a[aria-current="page"] { color: var(--orange-text); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1.5px; }
+.nk-main { max-width: calc(960px + 2 * var(--margin)); }
+.nk-head { padding-top: 64px; margin-bottom: 28px; }
+.nk-head .section-head { margin-bottom: 16px; }
+.nk-title { font-size: 44px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; margin: 0; }
+.nk-lead { max-width: 720px; }
+.nk-sheet .sheet-content { gap: 28px; }
+.nk-doc { gap: 0; padding-top: 8px; padding-bottom: 8px; }
+.nk-block { padding: 28px 0; border-bottom: var(--hair); }
+.nk-block:last-child { border-bottom: 0; }
+.nk-block-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px; }
+.nk-block-head h2 { font-size: 24px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.2; }
+.nk-prose { font-size: 16px; line-height: 1.6; color: var(--ink-2); max-width: 720px; display: flex; flex-direction: column; gap: 14px; }
+.nk-prose ul, .nk-prose ol { margin: 0; padding-inline-start: 22px; display: flex; flex-direction: column; gap: 8px; }
+.nk-prose li::marker { color: var(--orange-text); }
+.nk-prose a { overflow-wrap: anywhere; }
+.nk-table { max-width: none; border: 1px solid var(--ink); background: var(--white); font-size: 15px; line-height: 1.5; }
+.nk-row { display: grid; grid-template-columns: 150px minmax(0, 1.6fr) minmax(0, 1fr); gap: 20px; padding: 14px 18px; border-bottom: var(--hair); }
+.nk-row:last-child { border-bottom: 0; }
+.nk-row-head { padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid var(--ink); }
+.nk-cell-type { font-weight: 700; color: var(--ink); }
+.nk .site-footer { margin-top: 96px; }
+.nk-why-label { display: none; }
+
+@media (max-width: 720px) {
+  .nk-nav { flex-wrap: wrap; gap: 4px 16px; }
+  .nk-links { gap: 0 20px; }
+  .nk-head { padding-top: 32px; }
+  .nk-title { font-size: 32px; }
+  .nk-block { padding: 22px 0; }
+  .nk-block-head h2 { font-size: 20px; }
+  .nk-row { grid-template-columns: minmax(0, 1fr); gap: 4px; padding: 12px 14px; }
+  .nk-row-head { display: none; }
+  .nk-why { margin-top: 4px; }
+  .nk-why-label { display: block; }
+  .nk .site-footer { margin-top: 64px; }
+}
